@@ -118,7 +118,7 @@ class AppBody extends React.Component {
 
     if (
       currentScrol == document.documentElement.offsetHeight ||
-      currentScrol == document.documentElement.offsetHeight - 20
+      currentScrol >= document.documentElement.offsetHeight - 20
     ) {
       this.requestListData();
     }
