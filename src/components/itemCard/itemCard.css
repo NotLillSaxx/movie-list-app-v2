@@ -1,0 +1,36 @@
+.item-card {
+    width: 30%;
+}
+
+.item-card > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.item-card > h5 {
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 430px) {
+    .item-card>img {
+        min-height: 210px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .item-card>img {
+        min-height: 160px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .item-card>img {
+        min-height: 135px;
+    }
+}

@@ -1,0 +1,13 @@
+.app-body {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.scroll-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}

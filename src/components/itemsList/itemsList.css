@@ -1,0 +1,18 @@
+/*  instead of doing condition in javascript to add margin i just used this feature in CSS */
+.header-sticky + .items-list-container {
+    margin-top: 40px;
+}
+
+.items-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.items-list-container > h1 {
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
