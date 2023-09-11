@@ -30,6 +30,11 @@
     align-items: center;
 }
 
+.input-search-shrink {
+    width: 90%;
+    flex-direction: row-reverse;
+}
+
 .header-container > div:first-of-type {
     gap: 10px
 }

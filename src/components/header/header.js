@@ -70,7 +70,7 @@ function Header({ setSearchKey }) {
         {!showInputBar && <h3 className="header-title">Romantic Comedy</h3>}
       </div>
 
-      <div>
+      <div className={showInputBar ? "input-search-shrink" : ""}>
         {showInputBar ? (
           <input
             className="search-bar"
