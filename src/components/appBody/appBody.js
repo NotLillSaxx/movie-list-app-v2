@@ -113,6 +113,8 @@ class AppBody extends React.Component {
 
   // to request data whenever user started scrolling
   handleScroll = () => {
+
+    alert("hii" + " window.innerHeight : " + window.innerHeight + " document.documentElement.scrollTop : " + document.documentElement.scrollTop + " document.documentElement.offsetHeight  " + document.documentElement.offsetHeight )
     if (
       window.innerHeight + document.documentElement.scrollTop !==
       document.documentElement.offsetHeight
