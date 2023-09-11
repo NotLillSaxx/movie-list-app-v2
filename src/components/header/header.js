@@ -75,8 +75,11 @@ function Header({ setSearchKey }) {
           <input
             className="search-bar"
             type="text"
+            placeholder="Enter the moive name"
             value={searchValue}
             onChange={handleSearchValue}
+            
+
           />
         ) : (
           <img
