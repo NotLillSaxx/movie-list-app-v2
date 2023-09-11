@@ -4,7 +4,7 @@
 
 .item-card > img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .item-card > h5 {
@@ -16,21 +16,18 @@
     overflow: hidden;
 }
 
-
-@media only screen and (max-width: 430px) {
-    .item-card>img {
-        min-height: 210px;
-    }
+.img-error-container {
+    width: 100%;
+    height: calc(100% - 24px);
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media only screen and (max-width: 380px) {
-    .item-card>img {
-        min-height: 160px;
-    }
+.img-error-container > span {
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 400;
 }
 
-@media only screen and (max-width: 325px) {
-    .item-card>img {
-        min-height: 135px;
-    }
-}
