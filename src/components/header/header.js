@@ -39,8 +39,6 @@ function Header({ setSearchKey }) {
       return;
     }
 
-    value = value.trim();
-
     setSearchValue(value);
     delayedSetSearchValue(value);
   };

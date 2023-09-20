@@ -42,7 +42,7 @@ class AppBody extends React.Component {
         });
       } else {
         const list = items.filter((item) =>
-          item.name.toLowerCase().includes(searchKey.toLowerCase())
+          item.name.toLowerCase().includes(searchKey.trim().toLowerCase())
         );
 
         this.setState({
